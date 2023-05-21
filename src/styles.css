@@ -1,0 +1,10 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/* button[type="submit"]:hover {
+	pointer-events: none;
+	cursor: none;
+	transform: translate(50px, 50px);
+} */

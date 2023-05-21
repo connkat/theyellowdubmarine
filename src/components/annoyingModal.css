@@ -1,0 +1,13 @@
+.AnnoyingModal {
+	position: fixed; 
+	left: 25%;
+	top: 25%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	background-color: rgb(255, 255, 1);
+	height: 50%;
+	width: 50%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
