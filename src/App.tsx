@@ -4,11 +4,10 @@ import "./styles.css";
 import AnnoyingModal from "./components/AnnoyingModal";
 
 export default function App() {
-	const [modal, setModal] = useState(false);
+	const [modal, setModal] = useState(true);
 
 	function setHandleModal(): void {
 		setModal(prevModal => !prevModal);
-		console.log(modal);
 	}
 
 	return (
