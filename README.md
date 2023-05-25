@@ -1,3 +1,3 @@
-# theyellowdubmarine
+# The Yellow Dubmarine
 
-an annoying home for the moving stage that literally no one asked for.  
+An annoying home for the mobile music stage that literally no one asked for.  
