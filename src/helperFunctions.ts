@@ -1,10 +1,3 @@
-// export function createAge() {
-// 	let numbers = [];
-// 	for (let i = 1; i <= 100; i++) {
-// 		numbers.push(i);
-// 	}
-// 	return numbers;
-// }
 
 export function createAge() {
 	let numbers = [];
