@@ -3,6 +3,8 @@ import { useState } from "react";
 import RadioButton from "./RadioButton";
 import "./annoyingModal.css";
 
+import { createAge } from "../helperFunctions";
+
 type AnnoyingModalProps = {
 	setHandleModal: () => void;
 };
@@ -12,15 +14,7 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 
 	function handleSubmit(event: any) {
 		setAge(event);
-		props.setHandleModal()
-	}
-
-	function createAge() {
-		let output = [];
-		for (let i = 1; i <= 100; i++) {
-			output.push(i);
-		}
-		return output;
+		props.setHandleModal();
 	}
 
 	const ages = createAge();
@@ -29,6 +23,9 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 		<div className="AnnoyingModal">
 			<div className="modal-overlay" id="modal-overlay"></div>
 			<div className="modal-container">
+				<br /> <br /><br /> <br /><br /> <br /><br /> <br />
+				<h1>To access this site, please confirm your birthday</h1>
+				<h2>This easy to use form should get you started!</h2>
 				<div className="modal-container-controls">
 					<button type="submit" onClick={props.setHandleModal}>
 						X
