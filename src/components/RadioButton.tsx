@@ -12,7 +12,6 @@ export default function RadioButton(props: Props) {
 		<FormControl>
 			<RadioGroup
 				aria-labelledby="radio-buttons-group-label"
-				defaultValue="1"
 				name="radio-buttons-group"
 			>
 				<FormControlLabel

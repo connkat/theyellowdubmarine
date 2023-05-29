@@ -3,7 +3,7 @@ import { useState } from "react";
 import RadioButton from "./RadioButton";
 import "./annoyingModal.css";
 
-import { createAge } from "../helperFunctions";
+import { createAge, numConsequences, alertText } from "../helperFunctions";
 
 type AnnoyingModalProps = {
 	setHandleModal: () => void;
@@ -11,11 +11,15 @@ type AnnoyingModalProps = {
 
 export default function AnnoyingModal(props: AnnoyingModalProps) {
 	const ages = createAge();
-	const [age, setAge] = useState("");
+	const [age, setAge] = useState(0);
 	const [showAlert, setShowAlert] = useState(false);
 
 	function handleSubmit(event: any) {
 		setAge(event);
+		const ageMessage = numConsequences(age);
+		console.log("AGE!!!!!!!", age);
+		alertText(ageMessage);
+
 		props.setHandleModal();
 	}
 

@@ -1,5 +1,4 @@
-
-export function createAge() {
+function createAge() {
 	let numbers = [];
 	for (let i = 1; i <= 100; i++) {
 		numbers.push(i);
@@ -23,3 +22,24 @@ export function createAge() {
 
 	return numbers;
 }
+
+function numConsequences(num: number) {
+	let msg = "That age seems okay, you may proceed";
+	if (num === 32 || 25 || 29 || 43) {
+		msg = "Woah, you are too old, you can forget about this";
+	}
+	if (num === 69 || 420) {
+		msg = "Daaaaaaamn, okay, that is a great age. Nice work";
+	}
+	if (num < 18) {
+		msg =
+			"Age up a bit and try again in a few years (or lie on this form, I'm not the police)";
+	}
+	return msg;
+}
+
+function alertText(msg: string) {
+	alert(msg);
+}
+
+export { createAge, numConsequences, alertText };
