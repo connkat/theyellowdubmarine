@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import Alert from "react-popup-alert";
-
 import RadioButton from "./RadioButton";
 import "./annoyingModal.css";
 
@@ -14,28 +12,11 @@ type AnnoyingModalProps = {
 export default function AnnoyingModal(props: AnnoyingModalProps) {
 	const ages = createAge();
 	const [age, setAge] = useState("");
-	const [alert, setAlert] = useState({
-		text: "This is a alert message",
-		show: false,
-	});
+	const [showAlert, setShowAlert] = useState(false);
 
 	function handleSubmit(event: any) {
 		setAge(event);
 		props.setHandleModal();
-	}
-
-	function onCloseAlert() {
-		setAlert({
-			text: "",
-			show: false,
-		});
-	}
-
-	function onShowAlert() {
-		setAlert({
-			text: "You thought it was that easy? Go find your TRUE age.",
-			show: true,
-		});
 	}
 
 	return (
@@ -45,22 +26,9 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 				<h1>To access this site, please confirm your birthday</h1>
 				<h2>This easy to use form should get you started!</h2>
 				<div className="modal-container-controls">
-					<button type="submit" onClick={() => onShowAlert()}>
+					<button type="submit" onClick={() => setShowAlert(!showAlert)}>
 						X
 					</button>
-					<Alert
-						header={"Header"}
-						btnText={"Close"}
-						text={alert.text}
-						show={alert.show}
-						onClosePress={onCloseAlert}
-						pressCloseOnOutsideClick={true}
-						showBorderBottom={true}
-						alertStyles={{}}
-						headerStyles={{}}
-						textStyles={{}}
-						buttonStyles={{}}
-					/>
 				</div>
 				<div className="modal-container-content">
 					<div>
