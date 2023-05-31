@@ -25,11 +25,11 @@ function createAge() {
 
 function numConsequences(num: number) {
 	let msg = "That age seems okay, you may proceed";
-	if (num === 32 || 25 || 29 || 43) {
-		msg = "Woah, you are too old, you can forget about this";
-	}
 	if (num === 69 || 420) {
 		msg = "Daaaaaaamn, okay, that is a great age. Nice work";
+	}
+	if (num === 32 || 25 || 29 || 43) {
+		msg = "Woah, you are too old, you can forget about this";
 	}
 	if (num < 18) {
 		msg =

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 
 import RadioButton from "./RadioButton";
 import "./annoyingModal.css";
@@ -14,13 +14,18 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 	const [age, setAge] = useState(0);
 	const [showAlert, setShowAlert] = useState(false);
 
-	function handleSubmit(event: any) {
-		setAge(event);
+
+
+	const handleSubmit = useCallback(event: any) => {
+		setAge(event.target.value);
 		const ageMessage = numConsequences(age);
-		console.log("AGE!!!!!!!", age);
 		alertText(ageMessage);
 
-		props.setHandleModal();
+		console.log("!!!!!!!!!", event)
+
+		if (ageMessage === "That age seems okay, you may proceed") {
+			props.setHandleModal();
+		}
 	}
 
 	return (
@@ -40,7 +45,7 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 					</div>
 					<form>
 						{ages.map((age, index) => (
-							<RadioButton value={age} lable={age} key={index} />
+							<RadioButton value={age} lable={age} key={index} setSelected={setAge} />
 						))}
 						<div>
 							<button type="submit" onClick={handleSubmit} value={age}>
