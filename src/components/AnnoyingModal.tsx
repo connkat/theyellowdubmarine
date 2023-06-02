@@ -16,12 +16,12 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
 
 
 
-	const handleSubmit = useCallback(event: any) => {
-		setAge(event.target.value);
+	function handleSubmit(e: any) {
+		setAge(e.target.value);
 		const ageMessage = numConsequences(age);
 		alertText(ageMessage);
 
-		console.log("!!!!!!!!!", event)
+		console.log("!!!!!!!!!");
 
 		if (ageMessage === "That age seems okay, you may proceed") {
 			props.setHandleModal();
