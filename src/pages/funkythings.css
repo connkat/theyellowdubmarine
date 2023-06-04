@@ -112,4 +112,14 @@
 		font-family: "Anton", sans-serif;
 		-webkit-text-stroke-width: .5px;
 	}
+
+	.warning-text {
+		-webkit-animation: simple-move 2s 2s linear infinite alternate;
+		animation: simple-move 2s 2s linear infinite alternate;
+	}
+	@keyframes simple-move {
+		100% {
+			transform: translate(40px, 0);
+		}
+	}
 }
