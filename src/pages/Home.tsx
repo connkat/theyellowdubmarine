@@ -7,6 +7,7 @@ import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
 
 import "./home.css";
+import "./funkythings.css";
 
 export default function Home() {
 	// const [modal, setModal] = useState(true);
@@ -21,14 +22,13 @@ export default function Home() {
 				<h1>The Yellow Dubmarine!!!!</h1>
 			</div>
 			<div className="main-body">
+				<img src={RV} alt="RV" className="rv" style={{ maxWidth: 200 }} />
+
 				<div className="subtitle">
 					<h2 className="rainbow">
-						Welcome to the home of Alberta's only yellow mobile stage dedicated
+						Welcome to the home of Alberta's only mobile yellow stage dedicated
 						to electronic music.
 					</h2>
-				</div>
-				<div className="rv">
-					<img src={RV} alt="RV" style={{ maxWidth: 200 }} />
 				</div>
 
 				<h3 className="warning-text">
