@@ -79,27 +79,37 @@
 		transform: translate(-200%, 110vh) rotateZ(0deg);
 	}
 }
-
-/* simple rv movement */
-/* .rv {
-	-webkit-animation: simple-move 2s 2s linear infinite alternate;
-	animation: simple-move 2s 2s linear infinite alternate;
+/* 
+.warning-text {
+	height: 50px;
+	overflow: hidden;
+	position: relative;
 } */
-/* @-webkit-keyframes simple-move {
+.warning-text {
+	text-align: center;
+
+	-webkit-animation: simple-move 4s 4s linear infinite alternate;
+	animation: simple-move 4s 4s linear infinite alternate;
+	transform:translateX(-15%);
+}
+
+@-webkit-keyframes simple-move {
 	100% {
-		-webkit-transform: translate(50px, 0);
+		-webkit-transform: translate(100px, 0);
 	}
 }
 
 @keyframes simple-move {
 	100% {
-		transform: translate(50px, 0);
+		transform: translate(100px, 0);
 	}
-} */
+}
 
 /* mobile/tablet */
 @media only screen and (max-width: 821px) {
 	.wordart {
 		font-size: 2vh;
+		font-family: "Anton", sans-serif;
+		-webkit-text-stroke-width: .5px;
 	}
 }

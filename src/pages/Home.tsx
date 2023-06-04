@@ -31,14 +31,14 @@ export default function Home() {
 					</h2>
 				</div>
 
-				<h3 className="warning-text">
+				<p className="warning-text">
 					<img src={no} alt="NO" style={{ maxWidth: 20 }} />
 					WE ARE NOT ASSOCIATED WITH THE{" "}
 					<a target="blank" href="http://freezerburnwrestlingfederation.com">
 						FREEZERBURN WRESTLING FEDERATION
 					</a>
 					<img src={no} alt="NO" style={{ maxWidth: 20 }} />
-				</h3>
+				</p>
 				<img
 					src={construction}
 					className="construction"
