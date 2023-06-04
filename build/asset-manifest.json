@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02c136db.css",
+    "main.js": "/static/js/main.5d416c3c.js",
+    "static/media/yellowRV.png": "/static/media/yellowRV.128d0492895293858c76.png",
+    "static/media/no.png": "/static/media/no.12ccb9aeea1793537b96.png",
+    "static/media/water2.png": "/static/media/water2.b8021c25ca0b547da3b3.png",
+    "index.html": "/index.html",
+    "main.02c136db.css.map": "/static/css/main.02c136db.css.map",
+    "main.5d416c3c.js.map": "/static/js/main.5d416c3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02c136db.css",
+    "static/js/main.5d416c3c.js"
+  ]
+}
