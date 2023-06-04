@@ -19,3 +19,20 @@
 .construction {
 	max-width: 100%;
 }
+
+.no {
+	max-width: 2vh;
+}
+
+/* mobile/tablet */
+@media only screen and (max-width: 821px) {
+	.subtitle {
+		font-size: 1vh;
+	}
+	.warning-text {
+		font-size: 1vh;
+	}
+	.no {
+		max-width: 1vh;
+	}
+}

@@ -32,12 +32,12 @@ export default function Home() {
 				</div>
 
 				<p className="warning-text">
-					<img src={no} alt="NO" style={{ maxWidth: 20 }} />
+					<img src={no} alt="NO" className="no" />
 					WE ARE NOT ASSOCIATED WITH THE{" "}
 					<a target="blank" href="http://freezerburnwrestlingfederation.com">
 						FREEZERBURN WRESTLING FEDERATION
 					</a>
-					<img src={no} alt="NO" style={{ maxWidth: 20 }} />
+					<img src={no} alt="NO" className="no" />
 				</p>
 				<img
 					src={construction}
