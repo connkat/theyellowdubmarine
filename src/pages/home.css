@@ -5,9 +5,8 @@
 	min-height: 100vh;
 }
 
-.main-body {
+.body-container {
 	width: 60%;
-	height: 50vh;
 	background-color: white;
 	justify-content: center;
 	margin: auto;
@@ -18,10 +17,15 @@
 
 .construction {
 	max-width: 100%;
+	padding-top: 5vh;
 }
 
 .no {
 	max-width: 2vh;
+}
+
+.main-body {
+	padding-bottom: 5vh;
 }
 
 /* mobile/tablet */

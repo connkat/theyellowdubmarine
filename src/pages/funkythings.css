@@ -90,7 +90,7 @@
 
 	-webkit-animation: simple-move 4s 4s linear infinite alternate;
 	animation: simple-move 4s 4s linear infinite alternate;
-	transform:translateX(-15%);
+	transform: translateX(-15%);
 }
 
 @-webkit-keyframes simple-move {
@@ -110,7 +110,7 @@
 	.wordart {
 		font-size: 2vh;
 		font-family: "Anton", sans-serif;
-		-webkit-text-stroke-width: .5px;
+		-webkit-text-stroke-width: 0.5px;
 	}
 
 	.warning-text {

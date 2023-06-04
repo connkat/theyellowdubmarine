@@ -21,7 +21,7 @@ export default function Home() {
 			<div className="wordart">
 				<h1>The Yellow Dubmarine!!!!</h1>
 			</div>
-			<div className="main-body">
+			<div className="body-container">
 				<img src={RV} alt="RV" className="rv" style={{ maxWidth: 200 }} />
 
 				<div className="subtitle">
@@ -44,6 +44,9 @@ export default function Home() {
 					className="construction"
 					alt="Under construction"
 				/>
+				<div className="main-body">
+					<p>Come back soon for updates!</p>
+				</div>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
 		</div>
