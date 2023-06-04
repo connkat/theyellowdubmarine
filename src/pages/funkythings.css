@@ -27,7 +27,6 @@
 		#4f00ff,
 		#9c00ff
 	);
-	-webkit-text-stroke: 0.2px black;
 
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -97,3 +96,10 @@
 		transform: translate(50px, 0);
 	}
 } */
+
+/* mobile/tablet */
+@media only screen and (max-width: 821px) {
+	.wordart {
+		font-size: 2vh;
+	}
+}

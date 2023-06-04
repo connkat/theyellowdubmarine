@@ -39,7 +39,11 @@ export default function Home() {
 					</a>
 					<img src={no} alt="NO" style={{ maxWidth: 20 }} />
 				</h3>
-				<img src={construction} alt="Under construction" />
+				<img
+					src={construction}
+					className="construction"
+					alt="Under construction"
+				/>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
 		</div>
