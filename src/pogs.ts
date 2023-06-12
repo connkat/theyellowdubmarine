@@ -8,6 +8,7 @@ const pogs: Array<string> = [
 	"Why be interesting when you can be...you!",
 	"It is really cute that you think that outfit looks cool",
 	"Please feed me more pogs :)",
+	
 ];
 
 export { pogs };
