@@ -1,4 +1,4 @@
-const pogs: Array<string> = [
+const data: Array<string> = [
 	"Fuck yer burn",
 	"Are you trying to find meaning from a pog?",
 	"Survey says: You could be a little cooler",
@@ -8,7 +8,6 @@ const pogs: Array<string> = [
 	"Why be interesting when you can be...you!",
 	"It is really cute that you think that outfit looks cool",
 	"Please feed me more pogs :)",
-	
 ];
 
-export { pogs };
+export { data };

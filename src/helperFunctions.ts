@@ -8,7 +8,7 @@ function createAge() {
 		randomIndex;
 
 	// While there remain elements to shuffle.
-	while (currentIndex != 0) {
+	while (currentIndex !== 0) {
 		// Pick a remaining element.
 		randomIndex = Math.floor(Math.random() * currentIndex);
 		currentIndex--;
@@ -38,8 +38,12 @@ function numConsequences(num: number) {
 	return msg;
 }
 
+function pickNum(num: number) {
+	return Math.floor(Math.random() * num);
+}
+
 function alertText(msg: string) {
 	alert(msg);
 }
 
-export { createAge, numConsequences, alertText };
+export { createAge, numConsequences, pickNum, alertText };
