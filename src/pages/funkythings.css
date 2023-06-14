@@ -79,12 +79,24 @@
 		transform: translate(-200%, 110vh) rotateZ(0deg);
 	}
 }
-/* 
-.warning-text {
-	height: 50px;
-	overflow: hidden;
-	position: relative;
-} */
+
+.modal-rv {
+	animation-name: slide-right;
+	animation-duration: 4s;
+}
+
+@keyframes slide-right {
+	from {
+		margin-left: 0px;
+	}
+	50% {
+		margin-left: 100px;
+	}
+	to {
+		margin-left: 200px;
+	}
+}
+
 .warning-text {
 	text-align: center;
 
