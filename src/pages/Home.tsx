@@ -5,6 +5,7 @@
 import construction from "../assets/consbar.gif";
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
+import baby from "../assets/baby.gif";
 
 import "./home.css";
 import "./funkythings.css";
@@ -46,6 +47,7 @@ export default function Home() {
 				/>
 				<div className="main-body">
 					<p>Come back soon for updates!</p>
+					<img src={baby} className="baby" alt="Under baby" />
 				</div>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
