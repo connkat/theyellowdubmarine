@@ -5,6 +5,7 @@ import { pickNum } from "../helperFunctions";
 import { data } from "../pogs";
 import pogsGIF from "../assets/pogs.gif";
 import "./pogs.css";
+import { Link } from "react-router-dom";
 
 export default function Pogs() {
 	const [modal, setModal] = useState(false);
@@ -27,6 +28,11 @@ export default function Pogs() {
 					close={() => setModal(false)}
 					fortune={fortune}
 				/>
+				<p>
+					Thanks for participating! You can checkout the{" "}
+					<Link to="/">Home Page</Link> for the 2023 Dubmarine lineup at
+					Freezerburn!
+				</p>
 			</div>
 		</div>
 	);

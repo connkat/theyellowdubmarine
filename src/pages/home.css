@@ -26,6 +26,22 @@
 
 .main-body {
 	padding-bottom: 5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-title {
+	display: flex;
+	flex-direction: row;
+	padding: 3vh 0;
+}
+
+.lineup {
+	max-width: 100vh;
+}
+.baby {
+	max-width: 10vh;
 }
 
 /* mobile/tablet */
