@@ -2,7 +2,7 @@
 
 // import AnnoyingModal from "../components/AnnoyingModal";
 
-import construction from "../assets/consbar.gif";
+// import construction from "../assets/consbar.gif";
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
 import baby from "../assets/baby.gif";
