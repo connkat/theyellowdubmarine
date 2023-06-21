@@ -55,4 +55,11 @@
 	.no {
 		max-width: 1vh;
 	}
+	.lineup {
+		max-width: 40vh;
+	}
+	.baby {
+		max-width: 4vh;
+		max-height: 5vh;
+	}
 }
