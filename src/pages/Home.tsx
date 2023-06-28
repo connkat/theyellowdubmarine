@@ -6,7 +6,6 @@
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
 import baby from "../assets/baby.gif";
-import lineup from "../assets/lineup.png";
 
 import "./home.css";
 import "./funkythings.css";
@@ -40,10 +39,7 @@ export default function Home() {
 				<div className="main-body">
 					<div className="main-title">
 						<img src={baby} className="baby" alt="baby" />
-						<h1>Freezerburn 2023 lineup</h1>
-						<img src={baby} className="baby" alt="baby" />
 					</div>
-					<img src={lineup} className="lineup" alt="lineup" />
 
 					<p className="warning-text">
 						<img src={no} alt="NO" className="no" />
