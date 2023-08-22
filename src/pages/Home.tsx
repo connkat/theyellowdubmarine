@@ -2,13 +2,13 @@
 
 // import AnnoyingModal from "../components/AnnoyingModal";
 
-// import construction from "../assets/consbar.gif";
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
 import baby from "../assets/baby.gif";
 
 import "./home.css";
 import "./funkythings.css";
+import Footer from "../components/Footer";
 
 export default function Home() {
 	// const [modal, setModal] = useState(true);
@@ -31,11 +31,6 @@ export default function Home() {
 						to electronic music.
 					</h2>
 				</div>
-				{/* <img
-					src={construction}
-					className="construction"
-					alt="Under construction"
-				/> */}
 				<div className="main-body">
 					<div className="main-title">
 						<img src={baby} className="baby" alt="baby" />
@@ -52,6 +47,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
+			{/* <Footer /> */}
 		</div>
 	);
 }
