@@ -47,7 +47,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

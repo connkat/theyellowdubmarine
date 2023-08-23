@@ -1,0 +1,12 @@
+.Photos {
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	padding-top: 10%;
+	flex-direction: column;
+	width: 50%;
+}
+
+h3 {
+	text-align: center;
+}
