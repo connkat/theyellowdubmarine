@@ -10,6 +10,7 @@ export default function SiteMap() {
 					<Link to="/">Home</Link>
 					<Link to="/pogs">Pogs</Link>
 					<Link to="/photos">Photos</Link>
+					<Link to="/site-map">Site Map</Link>
 				</div>
 			</Layout>
 		</div>
