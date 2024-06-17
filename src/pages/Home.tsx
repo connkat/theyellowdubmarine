@@ -4,7 +4,7 @@
 
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
-import baby from "../assets/baby.gif";
+// import baby from "../assets/baby.gif";
 import schedule from "../assets/2024-schedule.png"
 import special from "../assets/2024-special.png"
 import "./home.css";
