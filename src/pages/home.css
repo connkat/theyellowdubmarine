@@ -39,9 +39,15 @@
 	padding: 3vh 0;
 }
 
-.lineup {
-	max-width: 100vh;
+.schedule {
+	min-width: 100vh
 }
+
+.schedule img {
+	min-width: 50%;
+	padding-top: 5vh;
+}
+
 .baby {
 	max-width: 10vh;
 }
@@ -63,5 +69,12 @@
 	.baby {
 		max-width: 4vh;
 		max-height: 5vh;
+	}
+
+	.schedule {
+		display: flex;
+		flex-direction: column;
+		min-width: 50vh;
+		align-items: center;
 	}
 }

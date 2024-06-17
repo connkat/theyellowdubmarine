@@ -5,7 +5,8 @@
 import no from "../assets/no.png";
 import RV from "../assets/yellowRV.png";
 import baby from "../assets/baby.gif";
-
+import schedule from "../assets/2024-schedule.png"
+import special from "../assets/2024-special.png"
 import "./home.css";
 import "./funkythings.css";
 import Footer from "../components/Footer";
@@ -32,10 +33,13 @@ export default function Home() {
 					</h2>
 				</div>
 				<div className="main-body">
-					<div className="main-title">
+					{/* <div className="main-title">
 						<img src={baby} className="baby" alt="baby" />
+					</div> */}
+					<div className="schedule">
+						<img src={schedule} alt="NO" className="no" />
+						<img src={special} alt="NO" className="no" />
 					</div>
-
 					<p className="warning-text">
 						<img src={no} alt="NO" className="no" />
 						WE ARE NOT ASSOCIATED WITH THE{" "}
