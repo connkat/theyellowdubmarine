@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba184aa6.css",
-    "main.js": "/static/js/main.95363a16.js",
+    "main.css": "/static/css/main.7d7b62ba.css",
+    "main.js": "/static/js/main.32f71ab8.js",
+    "static/media/2024-special.png": "/static/media/2024-special.1b72771bb35d467a8fea.png",
+    "static/media/2024-schedule.png": "/static/media/2024-schedule.7201a739e124b987c2b8.png",
+    "static/media/pogs.gif": "/static/media/pogs.8c37c7e36fb1494c75ff.gif",
+    "static/media/pogs-background.jpg": "/static/media/pogs-background.32206b92574bcde8fa9c.jpg",
     "static/media/yellowRV.png": "/static/media/yellowRV.142aa8b77c10f3306f8a.png",
     "static/media/no.png": "/static/media/no.12ccb9aeea1793537b96.png",
     "static/media/water2.png": "/static/media/water2.b8021c25ca0b547da3b3.png",
     "index.html": "/index.html",
-    "main.ba184aa6.css.map": "/static/css/main.ba184aa6.css.map",
-    "main.95363a16.js.map": "/static/js/main.95363a16.js.map"
+    "main.7d7b62ba.css.map": "/static/css/main.7d7b62ba.css.map",
+    "main.32f71ab8.js.map": "/static/js/main.32f71ab8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba184aa6.css",
-    "static/js/main.95363a16.js"
+    "static/css/main.7d7b62ba.css",
+    "static/js/main.32f71ab8.js"
   ]
 }

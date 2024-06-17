@@ -13,6 +13,7 @@
 		"@types/node": "^16.18.31",
 		"@types/react": "^18.2.6",
 		"@types/react-dom": "^18.2.4",
+		"caniuse-lite": "^1.0.30001636",
 		"mui": "^0.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
