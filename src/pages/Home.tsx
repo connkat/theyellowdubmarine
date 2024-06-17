@@ -36,10 +36,7 @@ export default function Home() {
 					{/* <div className="main-title">
 						<img src={baby} className="baby" alt="baby" />
 					</div> */}
-					<div className="schedule">
-						<img src={schedule} alt="NO" className="no" />
-						<img src={special} alt="NO" className="no" />
-					</div>
+
 					<p className="warning-text">
 						<img src={no} alt="NO" className="no" />
 						WE ARE NOT ASSOCIATED WITH THE{" "}
@@ -48,6 +45,10 @@ export default function Home() {
 						</a>
 						<img src={no} alt="NO" className="no" />
 					</p>
+					<div className="schedule">
+						<img src={schedule} alt="NO" className="no" />
+						<img src={special} alt="NO" className="no" />
+					</div>
 				</div>
 			</div>
 			{/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}

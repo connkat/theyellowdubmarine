@@ -33,6 +33,10 @@
 	align-items: center;
 }
 
+.warning-text {
+	padding-top: 2vh;
+}
+
 .main-title {
 	display: flex;
 	flex-direction: row;
@@ -40,12 +44,14 @@
 }
 
 .schedule {
-	min-width: 100vh
+	min-width: 100vh;
+	display: flex;
+	flex-direction: row;
 }
 
 .schedule img {
 	min-width: 50%;
-	padding-top: 5vh;
+	padding: 2vh 1vh;
 }
 
 .baby {
