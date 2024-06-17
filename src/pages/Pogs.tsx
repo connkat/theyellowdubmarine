@@ -32,7 +32,7 @@ export default function Pogs() {
 					/>
 					<p>
 						Thanks for participating! You can checkout the{" "}
-						<Link to="/">Home Page</Link> for the 2023 Dubmarine lineup at
+						<Link to="/">Home Page</Link> for the 2024 Dubmarine lineup at
 						Freezerburn!
 					</p>
 				</div>
