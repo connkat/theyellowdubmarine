@@ -6,7 +6,7 @@ import no from "../assets/no.png";
 import water2 from "../assets/water2.png";
 import RV from "../assets/yellowRV.png";
 // import baby from "../assets/baby.gif";
-import "../styles/funkythings.css";
+import "../styles/funkyThings.css";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
         className="w-11/12 md:w-3/5 bg-white mx-auto text-center px-4 md:px-[5vh]"
         style={{ fontFamily: '"Comic Neue", cursive' }}
       >
-        <img src={RV} alt="RV" className="max-w-full pt-[5vh]" style={{ maxWidth: 200 }} />
+        <img src={RV} alt="RV" className="rv max-w-full pt-[5vh]" style={{ maxWidth: 200 }} />
 
         <div>
           <h2 className="rainbow text-sm md:text-base">
@@ -41,7 +41,7 @@ export default function Home() {
 						<img src={baby} className="baby" alt="baby" />
 					</div> */}
 
-          <p className="pt-[2vh] text-sm md:text-base">
+          <p className="warning-text pt-[2vh] text-sm md:text-base">
             <img src={no} alt="NO" className="inline max-w-[1vh] md:max-w-[2vh]" />
             WE ARE NOT ASSOCIATED WITH THE{" "}
             <a target="blank" href="https://freezerburn-wrestling-federation.netlify.app">
