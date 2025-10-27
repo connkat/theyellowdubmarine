@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
+
 import Layout from "./Layout";
 
 export default function SiteMap() {
 	return (
-		<div className="SiteMap">
-			<Layout>
-				<h1>Site Map</h1>
-				<div className="site-map-body">
-					<Link to="/">Home</Link>
-					<Link to="/pogs">Pogs</Link>
-					<Link to="/photos">Photos</Link>
-					<Link to="/site-map">Site Map</Link>
+		<Layout>
+			<div className="max-w-3xl mx-auto p-6">
+				<h1 className="text-2xl font-bold mb-4">Site Map</h1>
+				<div className="flex flex-col gap-2">
+					<Link className="text-blue-600 hover:underline" to="/">Home</Link>
+					<Link className="text-blue-600 hover:underline" to="/pogs">Pogs</Link>
+					<Link className="text-blue-600 hover:underline" to="/photos">Photos</Link>
+					<Link className="text-blue-600 hover:underline" to="/site-map">Site Map</Link>
 				</div>
-			</Layout>
-		</div>
+			</div>
+		</Layout>
 	);
 }

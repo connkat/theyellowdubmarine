@@ -1,6 +1,6 @@
 import RV from "../assets/yellowRV.png";
 
-import "./fortuneModal.css";
+// import "./fortuneModal.css";
 
 type Props = {
 	show: boolean;
