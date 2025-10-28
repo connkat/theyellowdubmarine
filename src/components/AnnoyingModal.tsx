@@ -25,9 +25,9 @@ export default function AnnoyingModal(props: AnnoyingModalProps) {
   return (
     <div
       className="fixed top-4 left-1/2 -translate-x-1/2 w-11/12 max-h-[90vh] h-auto
-                 md:left-1/4 md:translate-x-0 md:top-1/4 md:w-1/2 md:h-1/2
-                 flex items-center justify-center bg-[rgb(255,255,1)]
-                 rounded-[15px] border-[5px] border-black overflow-y-auto"
+                md:left-1/4 md:translate-x-0 md:top-1/4 md:w-1/2 md:h-1/2
+                flex items-center justify-center bg-[rgb(255,255,1)]
+                rounded-[15px] border-[5px] border-black overflow-y-auto"
     >
       <div className="hidden fixed inset-0 z-[100] w-full h-full" id="modal-overlay"></div>
       <div className="relative p-4 md:p-[10vh] md:pt-[50vh]">
