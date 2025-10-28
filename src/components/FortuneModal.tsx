@@ -12,11 +12,11 @@ export default function FortuneModal(props: Props) {
 	return (
 		<>
 			{props.show ? (
-				<div className="fixed inset-0 z-50 flex items-center justify-center">
+				<div className="fixed inset-0 z-[1000] flex items-center justify-center">
 					{/* Backdrop */}
-					<div className="fixed inset-0 bg-black/40" onClick={props.close} />
+					<div className="fixed inset-0 bg-black/40 z-[1000]" onClick={props.close} />
 					{/* Modal panel */}
-					<div className="relative z-10 w-11/12 max-w-md rounded-xl border-4 border-black bg-white p-6 text-center shadow-xl">
+					<div className="relative z-[1001] w-11/12 max-w-md rounded-xl border-4 border-black bg-white p-6 text-center shadow-xl">
 						<button
 							type="button"
 							aria-label="Close"

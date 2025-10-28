@@ -1,18 +1,8 @@
-// import { useState } from "react";
-
-// import AnnoyingModal from "../components/AnnoyingModal";
 
 import { water2, yellowRV, no } from '../assets';
-// import baby from "../assets/baby.gif";
 import '../styles/animations.css';
 
 export default function Home() {
-  // const [modal, setModal] = useState(true);
-
-  // function setHandleModal(): void {
-  // 	setModal((prevModal) => !prevModal);
-  // }
-
   return (
     <div
       className="min-h-screen flex flex-col bg-repeat bg-[length:20%]"
@@ -33,10 +23,6 @@ export default function Home() {
           </h2>
         </div>
         <div className="pb-[5vh] flex flex-col items-center">
-          {/* <div className="main-title">
-						<img src={baby} className="baby" alt="baby" />
-					</div> */}
-
           <p className="warning-text pt-[2vh] text-sm md:text-base">
             <img src={no} alt="NO" className="inline max-w-[1vh] md:max-w-[2vh]" />
             WE ARE NOT ASSOCIATED WITH THE{' '}
@@ -47,7 +33,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-      {/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
     </div>
   );
 }

@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { pogsBg, pogsGIF } from '../assets';
 import FortuneModal from '../components/FortuneModal';
-import { pickNum } from '../helperFunctions';
-import { data } from '../utils/pogs';
+import { pickNum, data } from '../utils';
 
 export default function Pogs() {
   const [modal, setModal] = useState(false);
@@ -15,12 +14,9 @@ export default function Pogs() {
   return (
     <div
       className="min-h-[97vh] flex flex-col bg-repeat bg-[length:100%] text-center"
-      style={{ backgroundImage: `url(${pogsBg})`, fontFamily: '"Comic Neue", cursive' }}
+      style={{ backgroundImage: `url(${pogsBg})` }}
     >
-      <div
-        className="w-full bg-white/95 p-4 md:p-6"
-        style={{ fontFamily: '"Comic Neue", cursive', minHeight: '97vh' }}
-      >
+      <div className="w-full bg-white p-4 md:p-6 min-h-[97vh]">
         <div className="mx-auto">
           <h1>Thank you for visiting the Yellow Dubmarine!</h1>
         </div>
