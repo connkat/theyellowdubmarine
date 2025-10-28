@@ -6,8 +6,7 @@ import no from "../assets/no.png";
 import water2 from "../assets/water2.png";
 import RV from "../assets/yellowRV.png";
 // import baby from "../assets/baby.gif";
-import "../styles/funkyThings.css";
-import Footer from "../components/Footer";
+import "../styles/animations.css";
 
 export default function Home() {
   // const [modal, setModal] = useState(true);
@@ -52,7 +51,6 @@ export default function Home() {
         </div>
       </div>
       {/* {modal && <AnnoyingModal setHandleModal={setHandleModal} />} */}
-      <Footer />
     </div>
   );
 }

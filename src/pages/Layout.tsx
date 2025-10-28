@@ -1,13 +1,17 @@
-import Footer from "../components/Footer";
+import { Outlet, Link } from "react-router-dom";
 
-type Props = {
-	children: React.ReactNode;
-};
-export default function Layout({ children }: Props) {
+export default function Layout() {
 	return (
-		<div className="Layout">
-			{children}
-			<Footer />
+		<div className="Layout min-h-screen flex flex-col">
+			<main className="flex-1">
+				<Outlet />
+			</main>
+			<footer className="bg-white flex justify-evenly">
+				<Link to="/">Home</Link>
+				<Link to="/pogs">Pogs</Link>
+				<Link to="/photos">Photos</Link>
+				{/* <Link to="/site-map">Site Map</Link> */}
+			</footer>
 		</div>
 	);
 }

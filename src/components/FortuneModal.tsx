@@ -1,6 +1,6 @@
 import RV from "../assets/yellowRV.png";
 
-import "../styles/funkyThings.css";
+import "../styles/animations.css";
 
 type Props = {
 	show: boolean;
