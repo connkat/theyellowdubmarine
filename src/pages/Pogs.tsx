@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { pogsBg, pogsGIF } from '../assets';
+import { Card } from '../components';
 import FortuneModal from '../components/FortuneModal';
 import { pickNum, data } from '../utils';
 
@@ -16,8 +17,8 @@ export default function Pogs() {
       className="min-h-[97vh] flex flex-col bg-repeat bg-[length:100%] text-center"
       style={{ backgroundImage: `url(${pogsBg})` }}
     >
-      <div className="w-full bg-white p-4 md:p-6 min-h-[97vh]">
-        <div className="mx-auto">
+      <Card>
+        <div className="bg-white mx-auto">
           <h1>Thank you for visiting the Yellow Dubmarine!</h1>
         </div>
         <h2 className="pt-[5vh] m-0 text-sm md:text-base">
@@ -33,7 +34,7 @@ export default function Pogs() {
             updates on the Dubmarine lineup at Freezerburn!
           </p>
         </div>
-      </div>
+      </Card>
     </div>
   );
 }
