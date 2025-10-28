@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import pogsBg from '../assets/pogs-background.jpg';
-import pogsGIF from '../assets/pogs.gif';
+import { pogsBg, pogsGIF } from '../assets';
 import FortuneModal from '../components/FortuneModal';
 import { pickNum } from '../helperFunctions';
 import { data } from '../utils/pogs';
