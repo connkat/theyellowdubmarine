@@ -13,8 +13,7 @@ export default function Home() {
         <h1>The Yellow Dubmarine!!!!</h1>
       </div>
       <Card>
-        <Image src={yellowRV} alt="RV" width={200} height={200} className="rv pt-[5vh]" />
-
+        <Image src={yellowRV} alt="RV" width={200} className="rv pt-[5vh]" />
         <div>
           <h2 className="rainbow text-2xl [font-family:'Comic_Sans_MS',cursive]">
             Welcome to the home of Alberta's only mobile yellow stage dedicated to electronic music.
