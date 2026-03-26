@@ -7,6 +7,9 @@ import { Footer } from './_components/Footer'
 
 export const metadata: Metadata = {
   title: 'The Yellow Dubmarine',
+  icons: {
+    icon: '/logo.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
