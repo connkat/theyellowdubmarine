@@ -15,9 +15,9 @@ export default function Home() {
       <Card>
         <Image src={yellowRV} alt="RV" width={200} className="rv pt-[5vh]" />
         <div>
-          <h2 className="rainbow text-2xl [font-family:'Comic_Sans_MS',cursive]">
+          <h3 className="rainbow text-2xl [font-family:'Comic_Sans_MS',cursive]">
             Welcome to the home of Alberta's only mobile yellow stage dedicated to electronic music.
-          </h2>
+          </h3>
         </div>
         <div className="pb-4 flex flex-col items-center">
           <p className="warning-text pt-[2vh] text-sm md:text-base">
