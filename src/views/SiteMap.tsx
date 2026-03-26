@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 import '98.css';
 
@@ -11,10 +11,10 @@ export default function SiteMap() {
         </div>
         <div className="window-body">
           <ul className="tree-view" style={{ fontSize: '1rem' }}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/pogs">Pogs</Link></li>
-            <li><Link to="/photos">Photos</Link></li>
-            <li><Link to="/site-map">Site Map</Link></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/pogs">Pogs</Link></li>
+            <li><Link href="/photos">Photos</Link></li>
+            <li><Link href="/site-map">Site Map</Link></li>
           </ul>
         </div>
       </div>

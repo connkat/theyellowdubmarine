@@ -1,3 +1,5 @@
+'use client'
+
 import { yellowRV } from '../assets';
 
 import '../styles/animations.css';
@@ -33,7 +35,7 @@ export default function FortuneModal(props: Props) {
               X
             </button>
             <div className="mt-2">
-              <img src={yellowRV} alt="RV" className="modal-rv mx-auto" style={{ maxWidth: 100 }} />
+              <img src={yellowRV.src} alt="RV" className="modal-rv mx-auto" style={{ maxWidth: 100 }} />
               <h3 className="mt-4 text-lg font-semibold">Your fortune is:</h3>
               <p className="mt-2">{props.fortune}</p>
             </div>

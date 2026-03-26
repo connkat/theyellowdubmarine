@@ -1,29 +1,31 @@
-declare module '*.css' {
-  const content: string;
-  export default content;
-}
+import type { StaticImageData } from 'next/image'
 
-declare module '*.gif' {
-  const src: string;
-  export default src;
+declare module '*.css' {
+  const content: string
+  export default content
 }
 
 declare module '*.png' {
-  const src: string;
-  export default src;
+  const content: StaticImageData
+  export default content
 }
 
 declare module '*.jpg' {
-  const src: string;
-  export default src;
+  const content: StaticImageData
+  export default content
 }
 
 declare module '*.jpeg' {
-  const src: string;
-  export default src;
+  const content: StaticImageData
+  export default content
+}
+
+declare module '*.gif' {
+  const content: StaticImageData
+  export default content
 }
 
 declare module '*.svg' {
-  const src: string;
-  export default src;
+  const content: StaticImageData
+  export default content
 }

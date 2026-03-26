@@ -1,5 +1,7 @@
+'use client'
+
+import Link from 'next/link';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import { pogsBg, pogsGIF } from '../assets';
 import { Card } from '../components';
@@ -15,7 +17,7 @@ export default function Pogs() {
   return (
     <div
       className="min-h-[97vh] flex flex-col bg-repeat bg-[length:100%] text-center"
-      style={{ backgroundImage: `url(${pogsBg})` }}
+      style={{ backgroundImage: `url(${pogsBg.src})` }}
     >
       <Card>
         <div className="bg-white mx-auto">
@@ -24,13 +26,13 @@ export default function Pogs() {
         <h2 className="pt-[5vh] m-0 text-sm md:text-base">
           You traded a pog for a thought! Nice work!
         </h2>
-        <img src={pogsGIF} className="max-w-[20vh] mx-auto" alt="pogsGIF" />
+        <img src={pogsGIF.src} className="max-w-[20vh] mx-auto" alt="pogsGIF" />
         <h4>Your payment of one (1) pog gets you one (1) fortune:</h4>
         <button onClick={() => Toggle()}>Click to open your fortune</button>
         <FortuneModal show={modal} close={() => setModal(false)} fortune={fortune} />
         <div>
           <p>
-            Thanks for participating! You can checkout the <Link to="/">Home Page</Link> for the
+            Thanks for participating! You can checkout the <Link href="/">Home Page</Link> for the
             updates on the Dubmarine lineup at Freezerburn!
           </p>
         </div>

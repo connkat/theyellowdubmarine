@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react';
 
 import '98.css';
@@ -33,7 +35,7 @@ export default function Photos() {
 
   if (loading) {
     return (
-      <div className="flex justify-center pt-[10%] min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2})` }}>
+      <div className="flex justify-center pt-[10%] min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2.src})` }}>
         <div className="window" style={{ width: 300 }}>
           <div className="title-bar">
             <div className="title-bar-text">Photos</div>
@@ -48,7 +50,7 @@ export default function Photos() {
 
   if (photos.length === 0) {
     return (
-      <div className="flex justify-center pt-[10%] min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2})` }}>
+      <div className="flex justify-center pt-[10%] min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2.src})` }}>
         <div className="window" style={{ width: 400 }}>
           <div className="title-bar">
             <div className="title-bar-text">Photos</div>
@@ -62,8 +64,8 @@ export default function Photos() {
   }
 
   return (
-    <div className="p-6 min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2})` }}>
-      <div className="window" style={{ width: '100%', maxWidth: 900, margin: '0 auto' }}>
+    <div className="p-6 min-h-full bg-repeat bg-[length:20%]" style={{ backgroundImage: `url(${water2.src})`, overflow: 'hidden' }}>
+      <div className="window" style={{ width: '100%', maxWidth: 900, margin: '3rem auto 0' }}>
         <div className="title-bar">
           <div className="title-bar-text">Photos</div>
           <div className="title-bar-controls">
