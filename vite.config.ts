@@ -5,5 +5,8 @@ export default defineConfig(async () => {
   return {
     base: '/',
     plugins: [react()],
+    server: {
+      historyApiFallback: true,
+    },
   };
 });
