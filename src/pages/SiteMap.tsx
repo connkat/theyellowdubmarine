@@ -1,22 +1,22 @@
 import { Link } from 'react-router-dom';
 
+import '98.css';
+
 export default function SiteMap() {
   return (
-    <div className="fixed inset-0 overflow-hidden max-w-3xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">Site Map</h1>
-      <div className="flex flex-col gap-2">
-        <Link className="text-blue-600 hover:underline" to="/">
-          Home
-        </Link>
-        <Link className="text-blue-600 hover:underline" to="/pogs">
-          Pogs
-        </Link>
-        <Link className="text-blue-600 hover:underline" to="/photos">
-          Photos
-        </Link>
-        <Link className="text-blue-600 hover:underline" to="/site-map">
-          Site Map
-        </Link>
+    <div className="fixed inset-0 flex items-end justify-center pb-4">
+      <div className="window" style={{ width: 320 }}>
+        <div className="title-bar">
+          <div className="title-bar-text">Site Map</div>
+        </div>
+        <div className="window-body">
+          <ul className="tree-view" style={{ fontSize: '1rem' }}>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/pogs">Pogs</Link></li>
+            <li><Link to="/photos">Photos</Link></li>
+            <li><Link to="/site-map">Site Map</Link></li>
+          </ul>
+        </div>
       </div>
     </div>
   );

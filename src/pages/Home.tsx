@@ -6,7 +6,7 @@ import '../styles/animations.css';
 export default function Home() {
   return (
     <div
-      className="h-screen overflow-y-auto flex flex-col bg-repeat bg-[length:20%]"
+      className="min-h-full flex flex-col bg-repeat bg-[length:20%]"
       style={{ backgroundImage: `url(${water2})` }}
     >
       <div className="wordart">
@@ -16,7 +16,7 @@ export default function Home() {
         <img src={yellowRV} alt="RV" className="rv max-w-full pt-[5vh]" style={{ maxWidth: 200 }} />
 
         <div>
-          <h2 className="rainbow text-sm md:text-base">
+          <h2 className="rainbow" style={{ fontSize: '1.5rem', fontFamily: '"Comic Sans MS", cursive' }}>
             Welcome to the home of Alberta's only mobile yellow stage dedicated to electronic music.
           </h2>
         </div>
