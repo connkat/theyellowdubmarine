@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'yellowdubmarine',
 
-  projectId: '5p45maae',
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
